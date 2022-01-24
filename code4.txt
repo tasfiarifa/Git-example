@@ -1,1 +1,28 @@
-I am Panda
+print("Show Grading")
+
+c = int(input())
+if c>=80:
+       print("A+")
+
+elif c>=79:
+       print("A")
+
+elif c>=69:
+
+        print("A-")
+
+elif c>=59:
+
+        print("B")
+
+elif c>=49:
+
+        print("C")
+
+elif c>=39:
+
+        print("D")
+
+elif c>=32:
+
+        print("F")

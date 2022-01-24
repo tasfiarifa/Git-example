@@ -1,1 +1,31 @@
-Hello world
+print("My Calculator")
+while(True):
+    print("1.ADD")
+    print("2.Substract")
+    print("3.Multiple")
+    print("4.Divided\n")
+    c = int(input())
+    if c==1:
+        a=int(input("enter num A\n"))
+        b=int(input("enter num B\n"))
+        c= a+b
+        print("sum =",c)
+        continue
+    elif c==2:
+        a = int(input("enter num A\n"))
+        b = int(input("enter num B\n"))
+        c = a-b
+        print("sum =", c)
+        continue
+    elif c==3:
+        a = int(input("enter num A"))
+        b = int(input("enter num B"))
+        c = a**b
+        print("sum = ", c)
+        continue
+    elif c==4:
+        a = int(input("enter num A"))
+        b = int(input("enter num B"))
+        c = a/b
+        print("sum =", c)
+        continue

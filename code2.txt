@@ -1,1 +1,6 @@
-hbdciebijdenidjfne
+print("Enter your name")
+
+def rifa( a, b, c):
+    return a+b+c
+r=rifa('a','t','e')
+print(r)

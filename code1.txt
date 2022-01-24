@@ -1,1 +1,9 @@
-gb2eueidbweijdnweijd
+print("Find your even & odd number")
+def find(num):
+    if (num%2==0):
+        print(num,"It's an even number ")
+    else:
+        print(num,"It's an odd number")
+
+num=int(input())
+find(num)
